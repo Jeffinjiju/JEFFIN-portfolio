@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Jeffin | QA Engineer & Business Analyst</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: #f6f8fc;
+      color: #1f2937;
+      line-height: 1.7;
+    }
+
+    /* ===== HERO SECTION ===== */
+    header {
+      background: linear-gradient(135deg, #0f172a, #1e3a8a);
+      padding: 80px 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    .hero-card {
+      max-width: 900px;
+      margin: auto;
+      background: rgba(255, 255, 255, 0.08);
+      backdrop-filter: blur(12px);
+      border-radius: 16px;
+      padding: 40px 20px;
+    }
+
+    .profile-img {
+      width: 110px;
+      height: 110px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 4px solid rgba(255,255,255,0.3);
+      margin-bottom: 20px;
+    }
+
+    header h1 {
+      font-size: 2.6rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 12px;
+      font-size: 1.1rem;
+      color: #dbeafe;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      max-width: 1100px;
+      margin: auto;
+      padding: 70px 20px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 30px;
+      color: #1e3a8a;
+    }
+
+    /* ===== CARDS ===== */
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 24px;
+    }
+
+    .card {
+      background: #ffffff;
+      padding: 25px;
+      border-radius: 14px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.06);
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card h3 {
+      margin-bottom: 12px;
+      color: #0f172a;
+    }
+
+    ul {
+      padding-left: 18px;
+    }
+
+    ul li {
+      margin-bottom: 8px;
+    }
+
+    /* ===== CONTACT ===== */
+    .contact-card p {
+      margin-bottom: 10px;
+    }
+
+    a {
+      color: #1e40af;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: #0f172a;
+      color: #cbd5f5;
+      text-align: center;
+      padding: 25px;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- HERO -->
+  <header>
+    <div class="hero-card">
+      <img src="profile.jpg" alt="Jeffin Profile Photo" class="profile-img" />
+      <h1>Jeffin</h1>
+      <p>QA Engineer | Business Analyst | Manual & Automation Testing | BRD | Power BI Dashboards</p>
+    </div>
+  </header>
+
+  <!-- ABOUT -->
+  <section>
+    <h2>About Me</h2>
+    <div class="card">
+      <p>
+        I am a <strong>Computer Science graduate</strong> with hands-on experience as a 
+        <strong>QA Engineer</strong> and <strong>Business Analyst</strong> in an 
+        <strong>AI-based startup</strong>. I work across the full SDLC, ensuring product 
+        quality, clear requirement documentation, and data-driven business insights.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section>
+    <h2>Core Expertise</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Quality Assurance</h3>
+        <ul>
+          <li>Manual & Functional Testing</li>
+          <li>Test Case & Scenario Design</li>
+          <li>Defect Tracking & Reporting</li>
+          <li>Regression & Smoke Testing</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Business Analysis</h3>
+        <ul>
+          <li>BRD & FRD Documentation</li>
+          <li>User Stories & Acceptance Criteria</li>
+          <li>Process Flow & Requirement Analysis</li>
+          <li>Client & Stakeholder Coordination</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h3>Data & Reporting</h3>
+        <ul>
+          <li>Power BI Dashboards</li>
+          <li>Business Insights & KPIs</li>
+          <li>Data Visualization</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section>
+    <h2>Professional Experience</h2>
+    <div class="card">
+      <h3>QA Engineer & Business Analyst</h3>
+      <p><strong>AI-Based Startup</strong></p>
+      <ul>
+        <li>Executed end-to-end manual testing for web applications</li>
+        <li>Designed and maintained test cases and scenarios</li>
+        <li>Collaborated with developers to resolve defects</li>
+        <li>Gathered requirements and prepared BRD documents</li>
+        <li>Built Power BI dashboards for business decision support</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- EDUCATION -->
+  <section>
+    <h2>Education</h2>
+    <div class="card">
+      <p><strong>B.Tech in Computer Science and Engineering</strong></p>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section>
+    <h2>Contact</h2>
+    <div class="card contact-card">
+      <p>Email: <a href="mailto:your-jeffinjiju6@gmail.com">your-jeffinjiju6@gmail.com</a></p>
+      <p>LinkedIn: <a href="#">linkedin.com/in/jeffin-jiju-644704253/</a></p>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 Jeffin | QA Engineer & Business Analyst
+  </footer>
+
+</body>
+</html>
